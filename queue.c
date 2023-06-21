@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_queue - handles bus lifi
+ * f_queue - sets the format of the data to a queue
  * @head: stack's head
  * @counter: line number
  * Return: void

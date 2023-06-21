@@ -3,7 +3,7 @@
 /**
  * f_pint - prints the value at the top of the stack
  * @head: stack's head
- * @counter: line_number
+ * @counter: line number
  * Return: void
 */
 

@@ -1,6 +1,9 @@
->,-----------------------------------------------
->,-----------------------------------------------
-
-[<<+>>-]
-<[<+>-]
-<++++++++++++++++++++++++++++++++++++++++++++++++.
+,>,          Read the first number from stdin and store it in memory cell 0
+>,           Read the second number from stdin and store it in memory cell 1
+[             Start a loop
+  -           Decrement the value in memory cell 0 (subtract 1)
+  >           Move to memory cell 1
+  +           Increment the value in memory cell 1 (add 1)
+  <           Move back to memory cell 0
+]             Loop until the value in memory cell 0 becomes zero
+.             Print the sum

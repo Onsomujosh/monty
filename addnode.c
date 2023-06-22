@@ -4,7 +4,7 @@
  * addnode - adds a node to the head stack
  * @head: stack's head
  * @n: new input
- * Return: void
+ * Return: void function (always return void)
 */
 
 void addnode(stack_t **head, int n)

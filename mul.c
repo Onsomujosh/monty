@@ -4,7 +4,7 @@
  * f_mul - multiplies the second top element of the stack
  * with the top element of the stack
  * @head: stack's head
- * @counter: line number
+ * @counter: line number (always store line number)
  * Return: void
 */
 

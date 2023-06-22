@@ -1,17 +1,12 @@
-,[->+<]       Read the first digit from stdin and move it to memory cell 0
->,            Read the second digit from stdin and store it in memory cell 1
-[              Start a loop
-  -            Decrement the value in memory cell 0 (subtract 1)
-  >            Move to memory cell 1
-  +            Increment the value in memory cell 1 (add 1)
-  <            Move back to memory cell 0
-]              Loop until the value in memory cell 0 becomes zero
-[->+<]         Move the value from memory cell 1 to memory cell 0
-++++++++++     Initialize memory cell 2 with a value of 10
-[              Start a loop
-  -            Decrement the value in memory cell 0 (subtract 1)
-  >            Move to memory cell 2
-  +            Increment the value in memory cell 2 (add 1)
-  <            Move back to memory cell 0
-]              Loop until the value in memory cell 0 becomes zero
-[.>]           Print the sum stored in memory cell 0 as ASCII character
+> > > > + ,------------------------------------------------  Read the first input digit and store it in memory cell 4
+> > > > + ,------------------------------------------------  Read the second input digit and store it in memory cell 5
+[       Enter the loop to start addition
+  <       Move back to memory cell 4
+  -       Decrement the value in memory cell 4 by one
+  >       Move to memory cell 5
+  +       Increment the value in memory cell 5 by one
+  <       Move back to memory cell 4
+]       Exit the loop when the value in memory cell 4 is zero
+<       Move back to memory cell 4
++++++++++++++++++++++++++++++++++++++++++++++++++  Add 48 (ASCII value of '0') to convert the value to its ASCII representation
+.       Print the value at memory cell 4 as an ASCII character

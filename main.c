@@ -4,7 +4,7 @@ bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
 * main - interpreter of the monty code
-* @argc: number of arguments
+* @argc: number of arguments/arg count
 * @argv: location of the monty file
 * Return: 0(success)
 */
